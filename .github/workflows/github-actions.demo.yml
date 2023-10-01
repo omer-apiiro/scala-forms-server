@@ -5,7 +5,7 @@ run-name: testing out GitHub Actions
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   Explore-GitHub-Actions-1:
