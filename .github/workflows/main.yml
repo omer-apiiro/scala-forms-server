@@ -25,7 +25,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Using the other file
-      uses: ./.github/actions/build/action.yml
+      uses: scala-forms-server/scala-forms-server/.github/workflows/action.yml@main
 
     - name: Cool Step
       run: echo "Cool step from workflow."
