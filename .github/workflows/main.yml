@@ -8,4 +8,4 @@ on:
 jobs:
   Explore-GitHub-Actions-1:
     name: Using the other file
-    uses: scala-forms-server/scala-forms-server/.github/workflows/action.yml
+    uses: ./.github/workflows/action.yml
