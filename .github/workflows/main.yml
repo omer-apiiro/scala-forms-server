@@ -8,7 +8,7 @@ on:
 jobs:
   Explore-GitHub-Actions-1:
     name: Using file 1
-    uses: ./.github/workflows/action.yml
+    uses: ./.github/workflows/action1.yml
 
   Explore-GitHub-Actions-2:
     name: Using file 2
