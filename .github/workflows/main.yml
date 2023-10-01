@@ -13,3 +13,9 @@ jobs:
   Explore-GitHub-Actions-2:
     name: Using file 2
     uses: ./.github/workflows/action2.yml
+  
+  Random-Action-That-Echos-Something:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cool Step that echos boolshit
+        run: echo "Echo something."
