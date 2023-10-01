@@ -22,7 +22,7 @@ jobs:
       run: pwd
 
     - name: Using the other file
-      uses: ./.github/actions/action.yml
+      uses: ./.github/actions/build
 
     - name: Cool Step
       run: echo "Cool step from workflow."

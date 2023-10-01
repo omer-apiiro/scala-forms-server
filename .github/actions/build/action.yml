@@ -4,5 +4,7 @@ jobs:
   The-action-that-should-run-afterwards:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+
       - name: Cool Step
         run: echo "Cool step from file 2."
