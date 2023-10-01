@@ -20,6 +20,9 @@ jobs:
 
     - name: PWD
       run: pwd
+    
+    - name: Checkout
+      uses: actions/checkout@v2
 
     - name: Using the other file
       uses: ./.github/actions/build/action.yml
