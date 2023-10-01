@@ -1,8 +1,8 @@
 name: GitHub Actions Demo - File 2
 
 jobs:
-  Explore-GitHub-Actions-2:
+  The-action-that-should-run-afterwards:
     runs-on: ubuntu-latest
     steps:
-      - name: cool step
-        run: echo "cool step from file 2."
+      - name: Cool Step
+        run: echo "Cool step from file 2."

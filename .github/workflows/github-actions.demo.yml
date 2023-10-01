@@ -1,7 +1,5 @@
 name: GitHub Actions Demo
 
-run-name: testing out GitHub Actions
-
 on:
   push:
     branches:
@@ -10,9 +8,9 @@ on:
 jobs:
   Explore-GitHub-Actions-1:
     runs-on: ubuntu-latest
-    steps:  
-    - name: checkout
-      uses: actions/checkout
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
 
-    - name: Check out repository code
-      uses: ./.github/workflows/actions/action.yml
+      - name: Check out repository code
+        uses: ./.github/workflows/actions/action.yml
