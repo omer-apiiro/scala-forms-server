@@ -2,14 +2,17 @@ name: GitHub Actions Demo
 
 run-name: testing out GitHub Actions
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   Explore-GitHub-Actions-1:
     runs-on: ubuntu-latest
     steps:  
-    - uses: actions/checkout@v1
-      with:
-        ref: 'master'
+    - name: checkout
+      uses: actions/checkout@v2
+
     - name: Check out repository code
       uses: ./.github/workflows/actions/action.yml
