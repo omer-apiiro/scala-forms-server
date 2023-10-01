@@ -1,4 +1,4 @@
-name: GitHub Actions Demo - File 2
+name: GitHub Actions Demo - File 3
 
 on:
   workflow_call:

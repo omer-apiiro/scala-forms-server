@@ -6,12 +6,10 @@ on:
       - master
 
 jobs:
-  Initial-Job:
-    runs-on: ubunto-latest
-    steps:
-    - name: First job in the process
-      run: echo "I am a first job"
-
   Explore-GitHub-Actions-1:
-    name: Using the other file
+    name: Using file 1
     uses: ./.github/workflows/action.yml
+
+  Explore-GitHub-Actions-2:
+    name: Using file 2
+    uses: ./.github/workflows/action2.yml
