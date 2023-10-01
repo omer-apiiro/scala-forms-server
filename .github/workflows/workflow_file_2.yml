@@ -1,6 +1,5 @@
-iname: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+name: GitHub Actions Demo - File 2
+
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
