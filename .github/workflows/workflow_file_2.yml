@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: cool step
-	  echo "cool step from file 2."
+        run echo "cool step from file 2."
