@@ -8,9 +8,15 @@ on:
 jobs:
   Explore-GitHub-Actions-1:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+    steps:  
+    - name: Checkout
+      uses: actions/checkout@v2
 
-      - name: Check out repository code
-        uses: ./.github/workflows/action.yml
+    - name: Check out repository code
+      run: echo "Checking out repository code."
+    
+    - name: Running ls
+      run: ls -la
+
+    - name: Cool Step
+      run: echo "Cool step from workflow."
