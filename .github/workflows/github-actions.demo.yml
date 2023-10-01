@@ -16,13 +16,13 @@ jobs:
       run: echo "Checking out repository code."
     
     - name: Running ls
-      run: ls -la && cd .github/workflows/actions && ls -la
+      run: ls -la && cd .github/actions && ls -la
 
     - name: PWD
       run: pwd
 
     - name: Using the other file
-      uses: ./.github/workflows/actions/action.yml
+      uses: ./.github/actions/action.yml
 
     - name: Cool Step
       run: echo "Cool step from workflow."
