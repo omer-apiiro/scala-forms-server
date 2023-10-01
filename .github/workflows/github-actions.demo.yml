@@ -16,7 +16,7 @@ jobs:
       run: echo "Checking out repository code."
     
     - name: Running ls
-      run: ls -la && cd .github/actions && ls -la
+      run: ls -la && cd .github/workflows/actions && ls -la
 
     - name: Cool Step
       run: echo "Cool step from workflow."
