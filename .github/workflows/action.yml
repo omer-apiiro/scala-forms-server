@@ -1,5 +1,8 @@
 name: GitHub Actions Demo - File 2
 
+on:
+  workflow_call
+
 jobs:
   The-action-that-should-run-afterwards:
     runs-on: ubuntu-latest
